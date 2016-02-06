@@ -11,8 +11,6 @@ UFS communication is a layered communication architecture. It is based on SCSI S
 
 **Application Layer**  
 
-[test link](#51-ufs-top-level-architecture)
-
 The application layer consists of the UFS command set layer (UCS), the device manager and the Task Manager. The UCS will handle the normal commands like read, write, and so on. UFS may support multiple command sets. UFS is designed to be protocol agnostic. This version UFS standard uses SCSI as the baseline protocol layer. A simplified SCSI command set was selected for UFS. UFS Native command set can be supported when it is needed to extend the UFS functionalities.
 
 The Task Manager handles commands meant for command queue control. The Device Manager will provide device level control like Query Request and lower level link-layer control.
