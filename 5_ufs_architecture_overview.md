@@ -4,4 +4,4 @@
 
 Figure 5.1 shows the Universal Flash Storage (UFS) top level architecture.
 
-![i](Figure 5.1.bmp "test")
+![Figure 5.1 — UFS Top Level Architecture](Figure 5.1.bmp "Figure 5.1 — UFS Top Level Architecture")
