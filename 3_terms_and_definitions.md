@@ -107,3 +107,10 @@ suitable, without mentioning or excluding others; or that a certain course of ac
 
 **Will** - The use of the word will is deprecated and shall not be used when stating mandatory requirements;
 will is only used in statements of fact.
+
+# 3.4 Abbreviations
+**etc.** - And so forth (Latin: et cetera)
+
+**e.g.** - For example (Latin: exempli gratia)
+
+**i.e.** - That is (Latin: id est)
