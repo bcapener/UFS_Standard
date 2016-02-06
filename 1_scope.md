@@ -1,4 +1,5 @@
-# 1 SCOPE
+1 SCOPE
+====
 
 This standard specifies the characteristics of the UFS electrical interface and the memory device. Such
 characteristics include (among others) low power consumption, high data throughput, low
