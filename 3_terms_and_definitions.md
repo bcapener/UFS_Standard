@@ -140,7 +140,10 @@ The first letter of the name of a Flag is a lower-case f (e.g., fMyFlag).
 
 The first letter of the name of a parameter included a Descriptor or the first letter of the name of an Attribute is:
 
- a lower-case b if the parameter or the Attribute size is one byte (e.g., bMyParameter),
- a lower-case w if the parameter or the Attribute size is two bytes (e.g., wMyParameter),
- a lower-case d if the parameter or the Attribute size is four bytes (e.g., dMyParameter),
- a lower-case q if the parameter or the Attribute size is eight bytes (e.g., qMyParameter).
+* a lower-case b if the parameter or the Attribute size is one byte (e.g., bMyParameter),
+
+* a lower-case w if the parameter or the Attribute size is two bytes (e.g., wMyParameter),
+
+* a lower-case d if the parameter or the Attribute size is four bytes (e.g., dMyParameter),
+
+* a lower-case q if the parameter or the Attribute size is eight bytes (e.g., qMyParameter).
