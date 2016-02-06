@@ -28,6 +28,6 @@ Universal Flash Storage (UFS) is a simple, high performance, mass storage device
    * JEDEC to define the supported protocol layer, i.e., UTP for SCSI. This does not exclude the support of other protocol in UFS Transport Protocol Layer.
  * UFS Interconnect Layer (UIC)
    * MIPI UniProSM [MIPI-UniPro] is adopted for data link layer
-   * MIPI M-PHY SM [MIPI-M-PHY ] is adopted for physical layer
+   * MIPI M-PHY SM [MIPI-M-PHY ] is adopted for physical layer  
 
 NOTE 1 See 6.5.1 for details.
