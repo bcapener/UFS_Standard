@@ -100,12 +100,10 @@ However, if any optional feature defined by the standard is implemented, it shal
 Usage and interpretation may be specified by future extensions to this or other standards. A reserved object shall be zeroed or, upon development of a future standard, set to a value specified by such a standard. The recipient of a reserved object shall not check its value. The recipient of a defined object shall check its value and reject reserved code values.
 
 **Shall** - A keyword that indicates a mandatory requirement strictly to be followed in order to conform to
-the standard and from which no deviation is permitted (shall equals is required to). Designers are required
-to implement all such mandatory requirements to assure interoperability with other products conforming
-to this standard.
+the standard and from which no deviation is permitted (shall equals is required to). Designers are required to implement all such mandatory requirements to assure interoperability with other products conforming to this standard.
+
 **Should** - A keyword used to indicate that among several possibilities one is recommended as particularly
-suitable, without mentioning or excluding others; or that a certain course of action is preferred but not
-necessarily required; or that (in the negative form) a certain course of action is deprecated but not
-prohibited (should equals is recommended that).
+suitable, without mentioning or excluding others; or that a certain course of action is preferred but not necessarily required; or that (in the negative form) a certain course of action is deprecated but not prohibited (should equals is recommended that).
+
 **Will** - The use of the word will is deprecated and shall not be used when stating mandatory requirements;
 will is only used in statements of fact.
