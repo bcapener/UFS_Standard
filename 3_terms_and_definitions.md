@@ -114,3 +114,33 @@ will is only used in statements of fact.
 **e.g.** - For example (Latin: exempli gratia)
 
 **i.e.** - That is (Latin: id est)
+
+# 3.5 Conventions
+
+This standard follows some conventions used in SCSI documents since it adopts several SCSI standards.
+
+A binary number is represented in this standard by any sequence of digits consisting of only the WesternArabic numerals 0 and 1 immediately followed by a lower-case b (e.g., 0101b). Spaces may be included in binary number representations to increase readability or delineate field boundaries (e.g., 0 0101 1010b).
+
+A hexadecimal number is represented in this standard by any sequence of digits consisting of only the
+Western-Arabic numerals 0 through 9 and/or the upper-case English letters A through F immediately
+followed by a lower-case h (e.g., FA23h). Spaces may be included in hexadecimal number representations
+to increase readability or delineate field boundaries (e.g., B FD8C FA23h).
+
+A decimal number is represented in this standard by any sequence of digits consisting of only the
+Western-Arabic numerals 0 through 9 not immediately followed by a lower-case b or lower-case h (e.g.,
+25).
+
+A range of numeric values is represented in this standard in the form "a to z", where a is the first value
+included in the range, all values between a and z are included in the range, and z is the last value included
+in the range (e.g., the representation "0h to 3h" includes the values 0h, 1h, 2h, and 3h).
+
+When the value of the bit or field is not relevant, x or xx appears in place of a specific value.
+
+The first letter of the name of a Flag is a lower-case f (e.g., fMyFlag).
+
+The first letter of the name of a parameter included a Descriptor or the first letter of the name of an Attribute is:
+
+ a lower-case b if the parameter or the Attribute size is one byte (e.g., bMyParameter),
+ a lower-case w if the parameter or the Attribute size is two bytes (e.g., wMyParameter),
+ a lower-case d if the parameter or the Attribute size is four bytes (e.g., dMyParameter),
+ a lower-case q if the parameter or the Attribute size is eight bytes (e.g., qMyParameter).
