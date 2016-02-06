@@ -88,19 +88,17 @@ assumed by this standard. Other hardware and software design models may also be 
 recipient.  
 
 **Mandatory** - A keyword that indicates items required to be implemented as defined by this standard.
-**May** - A keyword that indicates a course of action permissible within the limits of the standard (may
-equals is permitted).
-**Must** - The use of the word must is deprecated and shall not be used when stating mandatory
-requirements; must is used only to describe unavoidable situations.
+
+**May** - A keyword that indicates a course of action permissible within the limits of the standard (may equals is permitted).
+
+**Must** - The use of the word must is deprecated and shall not be used when stating mandatory requirements; must is used only to describe unavoidable situations.
+
 **Optional** - A keyword that describes features which are not required to be implemented by this standard.
-However, if any optional feature defined by the standard is implemented, it shall be implemented as
-defined by the standard.
-**Reserved** - A keyword used to describe objects—bits, bytes, and fields—or the code values assigned to
-these objects in cases where either the object or the code value is set aside for future standardization.
-Usage and interpretation may be specified by future extensions to this or other standards. A reserved
-object shall be zeroed or, upon development of a future standard, set to a value specified by such a
-standard. The recipient of a reserved object shall not check its value. The recipient of a defined object
-shall check its value and reject reserved code values.
+However, if any optional feature defined by the standard is implemented, it shall be implemented as defined by the standard.
+
+**Reserved** - A keyword used to describe objects—bits, bytes, and fields—or the code values assigned to these objects in cases where either the object or the code value is set aside for future standardization.
+Usage and interpretation may be specified by future extensions to this or other standards. A reserved object shall be zeroed or, upon development of a future standard, set to a value specified by such a standard. The recipient of a reserved object shall not check its value. The recipient of a defined object shall check its value and reject reserved code values.
+
 **Shall** - A keyword that indicates a mandatory requirement strictly to be followed in order to conform to
 the standard and from which no deviation is permitted (shall equals is required to). Designers are required
 to implement all such mandatory requirements to assure interoperability with other products conforming
