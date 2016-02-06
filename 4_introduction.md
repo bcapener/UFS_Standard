@@ -31,3 +31,4 @@ Universal Flash Storage (UFS) is a simple, high performance, mass storage device
    * MIPI M-PHY SM [MIPI-M-PHY ] is adopted for physical layer  
 
 NOTE 1 See 6.5.1 for details.
+
