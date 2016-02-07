@@ -42,32 +42,28 @@ UIO_SAP is the service access point exposed by the UIC layer for the device mana
 
 **UIO_SAP**
 
-UIO_SAP is the service access point exposed by the UIC layer. In UniPro, UIO_SAP corresponds to
-DME_SAP. The DME_SAP provides service primitives including one for resetting the entire UniPro
-protocol stack and one for UFS device reset, etc.
- DME_RESET : It is used when the UniPro stack has to be reset.
- DME_ENDPOINTRESET: It is used when UFS host wants the UFS device to perform a reset.
-For the detailed internal mechanism, refer the UniPro specification [MIPI-UniPro] released by MIPI
-(MIPI is Mobile Industry Processor Interface).
+UIO_SAP is the service access point exposed by the UIC layer. In UniPro, UIO_SAP corresponds to DME_SAP. The DME_SAP provides service primitives including one for resetting the entire UniPro protocol stack and one for UFS device reset, etc.
+
+* DME_RESET : It is used when the UniPro stack has to be reset.
+* DME_ENDPOINTRESET: It is used when UFS host wants the UFS device to perform a reset.
+
+For the detailed internal mechanism, refer the UniPro specification [MIPI-UniPro] released by MIPI (MIPI is Mobile Industry Processor Interface).
 
 **UDM_SAP**
 
-UDM_SAP is the service access point exposed by the UTP layer to the Device Manager for UFS device
-level functions. UDM_SAP corresponds to the Query Request and Query Response functions defined by
-the UFS UTP layer.
-For further details refer to the following subclauses: 10.7.9 “Query Function transport protocol services”,
-10.5.10 “QUERY REQUEST UPIU”, and 10.5.11 “QUERY RESPONSE UPIU”.
+UDM_SAP is the service access point exposed by the UTP layer to the Device Manager for UFS device level functions. UDM_SAP corresponds to the Query Request and Query Response functions defined by the UFS UTP layer.
+
+For further details refer to the following subclauses: 10.7.9 “Query Function transport protocol services”, 10.5.10 “QUERY REQUEST UPIU”, and 10.5.11 “QUERY RESPONSE UPIU”.
 
 **UFS Transport Protocol Layer**
 
-The UFS Transport Protocol (UTP) layer provides services for the higher layer . UPIU is “UFS Protocol
-Information Unit” which is exchanged between UTP layers of UFS host and UFS device. For example, if
-host side UTP receives the request from application layer or Device Manager, UTP generates an UPIU for
-that request and transports the generated UPIU to the peer UTP in UFS device side. The UTP layer
-provides the following three access points.
-1) UFS Device Manager Service Access Point (UDM_SAP) to perform the device level management like descriptor access.
-2) UTP Command Service Access Point (UTP_CMD_SAP) to transport commands.
-3) UTP Task Management Service Access Point (UTP_TM_SAP) to transport task-management function like “abort task” function.
+The UFS Transport Protocol (UTP) layer provides services for the higher layer . UPIU is “UFS Protocol Information Unit” which is exchanged between UTP layers of UFS host and UFS device. For example, if host side UTP receives the request from application layer or Device Manager, UTP generates an UPIU for that request and transports the generated UPIU to the peer UTP in UFS device side. The UTP layer provides the following three access points.
+
+1. UFS Device Manager Service Access Point (UDM_SAP) to perform the device level management like descriptor access.
+
+2. UTP Command Service Access Point (UTP_CMD_SAP) to transport commands.
+
+3. UTP Task Management Service Access Point (UTP_TM_SAP) to transport task-management function like “abort task” function.
 
 **UFS Interconnect Layer**
 
