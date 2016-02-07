@@ -71,13 +71,8 @@ provides the following three access points.
 
 **UFS Interconnect Layer**
 
-The lowest layer is UFS Interconnect Layer (UIC) which handles connection between UFS host and UFS
-device. UIC consists of MIPI UniPro and MIPI M-PHY. The UIC provides two service access points to
-upper layer. The UIC Service Access Point (UIC_SAP) to transport UPIU between UFS host and UFS
-device. The UIC_SAP corresponds to T_SAP in UniPro. The UIC IO control Service Access Point
-(UIO_SAP) to manage UIC. The UIO_SAP corresponds to DME_SAP in UniPro.
+The lowest layer is UFS Interconnect Layer (UIC) which handles connection between UFS host and UFS device. UIC consists of MIPI UniPro and MIPI M-PHY. The UIC provides two service access points to upper layer. The UIC Service Access Point (UIC_SAP) to transport UPIU between UFS host and UFS device. The UIC_SAP corresponds to T_SAP in UniPro. The UIC IO control Service Access Point (UIO_SAP) to manage UIC. The UIO_SAP corresponds to DME_SAP in UniPro.
 
 **UFS Topology**
 
-This version of the standard assumes that only one device is connected to an UFS port. Other topologies
-may be defined in future versions of the standard.
+This version of the standard assumes that only one device is connected to an UFS port. Other topologies may be defined in future versions of the standard.
