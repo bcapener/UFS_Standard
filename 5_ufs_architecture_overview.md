@@ -27,3 +27,15 @@ Device level operations include functions such as device sleep, device power dow
 
 Device level configuration is managed by the device manager by maintaining and storing a set of descriptors. The device manager would handle commands like query request which is meant for modifying and retrieving configuration information of the device.
 
+**Service Access Points**
+
+As seen from the diagram the device manager interacts with lower layers using the following two service
+access points
+* UDM_SAP
+* UIO_SAP
+
+UDM_SAP is the service access point exposed by the UTP for the device manager to allow handling of device level operations and configurations. For example the handling of query request for descriptors would be done using this service access point. The following diagram depicts the usage of the service access point.
+
+UIO_SAP is the service access point exposed by the UIC layer for the device manager to trigger the reset of the UIC layer and also to service a reset request from the host. The following diagram depicts the usage of the service access point.
+
+**Figure 5.3 — Usage of UIO_SAP**
